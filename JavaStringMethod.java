@@ -7,6 +7,7 @@ public class JavaStringMethod {
         StringCompareToIgnore();
         StringConcat();
         StringContains();
+        StringEqual();
     }
 
     public static void CodePointAt(){
@@ -43,5 +44,11 @@ public class JavaStringMethod {
         String str1 = "Hello";
         String str2 = "Hello";
         System.out.println(str1.contains(str2));
+    }
+
+    public static void StringEqual(){
+        String str1 = "Hello";
+        String str2 = "Hello";
+        System.out.println(str1.equals(str2));
     }
 }
